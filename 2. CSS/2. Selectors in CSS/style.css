@@ -1,0 +1,30 @@
+/* 
+
+You can also give color by using rgb or rgba values or by using hexadecimal values: 
+
+rgb(red, green, blue)
+
+rgba(red, green, blue, alpha)
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#introduction {
+    color: blue;
+    margin-top: 20px;
+}
+
+.types {
+    color: rgb(255, 0, 0);
+    margin-top: 20px;
+}
+
+h1 {
+    color: rgba(0, 255, 0, 0.9);
+    text-align: center;
+    margin-top: 20px;
+}
