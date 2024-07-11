@@ -1,0 +1,30 @@
+body {
+    background-color: var(--teal);
+    color: var(--text-color);
+    padding: 8px;
+}
+
+:root {
+    --text-color: #fff;
+    --teal: #031634;
+    --turquoise: #066464;
+    --beige: #CEB280;
+    --gold: #EADDCC;
+}
+
+#main-heading {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#my-name {
+    display: block;
+    color: var(--gold);
+    font-size: 30px;
+}
