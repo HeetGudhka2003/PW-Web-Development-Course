@@ -1,0 +1,35 @@
+/* 
+
+We can also use hexadecimal values or RGB values for defining color names.
+
+rgb(red, green, blue)
+
+rgba(red, green, blue, alpha)
+
+#FFFFFF - hex value for white color
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main-heading {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sub-heading {
+    color: blue;
+    margin-top: 15px;
+}
+
+p {
+    color: rgb(34, 111, 226);
+    font-size: 18px;
+    margin-top: 15px;
+}
