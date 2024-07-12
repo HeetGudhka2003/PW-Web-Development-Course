@@ -28,3 +28,7 @@ body {
     color: var(--gold);
     font-size: 30px;
 }
+
+#experience {
+    color: var(--turquoise);
+}
