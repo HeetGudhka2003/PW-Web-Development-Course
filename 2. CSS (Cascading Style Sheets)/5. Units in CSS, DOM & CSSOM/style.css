@@ -12,7 +12,7 @@
 
 */
 
-section {
+#units-section {
     width: 100%;
 }
 
@@ -34,4 +34,22 @@ h1 {
 
 #unit-3 {
     font-size: 2em;
+}
+
+#difference ul li {
+    font-size: 18px;
+    line-height: 1.5;
+    color: red;
+}
+
+#difference img {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+}
+
+h1 {
+    text-align: center;
 }
