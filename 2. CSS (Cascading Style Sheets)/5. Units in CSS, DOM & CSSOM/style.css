@@ -1,0 +1,37 @@
+/* 
+
+1em = 16px
+
+1rem = 16px
+
+1.5em = 24px
+
+100% = 16px
+
+1px = 6.25%
+
+*/
+
+section {
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#units {
+    font-size: 18px;
+}
+
+#unit-1 {
+    font-size: 2rem;
+}
+
+#unit-2 {
+    font-size: 1.5em;
+}
+
+#unit-3 {
+    font-size: 2em;
+}
