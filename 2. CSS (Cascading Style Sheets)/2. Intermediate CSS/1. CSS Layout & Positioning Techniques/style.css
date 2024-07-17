@@ -1,0 +1,27 @@
+:root {
+    --heading-color: rgb(95, 11, 192);
+    --list-color: rgb(223, 17, 17);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 0.7rem;
+    color: var(--heading-color);
+}
+
+p, li {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+ul li {
+    color: var(--list-color);
+}
