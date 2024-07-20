@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox in CSS</title>
+</head>
+
+<body>
+
+    <h1 id="flexbox">Flexbox in CSS</h1>
+
+    <p id="flex-definition">It is a way to prepare and arrange elements in your HTML layout. You can align them in a particular direction, distribute them in a space and decide spacing between the elements.</p>
+
+    <h1 id="terminologies">Flexbox Terminologies</h1>
+
+    <ol start="1" id="flex-terms">
+
+        <li>Flexbox Container: The flexbox container is the element on which we can activate flex properties and then control the children using flex.</li> <br>
+
+        <li>Flex Items: The flex items are the elements present inside the flex container.</li> <br>
+
+        <li>Flex Direction: Each flex container has a direction attached to it. The items inside the container are arranged in that direction only. The default direction is row. We can change it to column, column-reverse, row-reverse. Based on the direction, we have two axis defined in the container. If the direction is row then X axis is the main axis and Y axis is the cross axis. If the direction is column then X axis is the cross axis and Y axis is the main axis. To handle distribution on the X axis we use justify-content and to handle distribution on the Y axis we use align-items.</li> <br>
+
+        <li>Flex Wrap: This property allows flex items to wrap in multiple lines.</li> <br>
+
+        <li>Justify-Content: This property is used to align and distribute elements the flex items accross the main axis. It has the following values: flex-start, flex-end, center, space-between, space-around and space-evenly.</li> <br>
+
+        <li>Align-Items: This property is used to align and distribute elements the flex items accross the cross axis. It has the following values: flex-start, flex-end, center, baseline and stretch.</li> <br>
+
+        <li>Flex Flow: This property is a combination of flex-direction and flex-wrap.</li>
+
+    </ol>
+
+    <h1 id="example">Example of Flexbox</h1>
+
+    <div id="container">
+
+        <div class="item">Item 1</div>
+
+        <div class="item">Item 2</div>
+
+        <div class="item">Item 3</div>
+
+        <div class="item">Item 4</div>
+
+        <div class="item">Item 5</div>
+
+        <div class="item">Item 6</div>
+
+        <div class="item">Item 7</div>
+
+        <div class="item">Item 8</div>
+
+        <div class="item">Item 9</div>
+
+        <div class="item">Item 10</div>
+
+        <div class="item">Item 11</div>
+
+        <div class="item">Item 12</div>
+
+    </div>
+
+</body>
+
+</html>
