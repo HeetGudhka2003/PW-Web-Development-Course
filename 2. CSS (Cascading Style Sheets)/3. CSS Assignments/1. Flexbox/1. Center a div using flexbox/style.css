@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main-heading {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.centered-div {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(44, 214, 44);
+    text-align: center;
+    line-height: 250px;
+    font-weight: bold;
+}
