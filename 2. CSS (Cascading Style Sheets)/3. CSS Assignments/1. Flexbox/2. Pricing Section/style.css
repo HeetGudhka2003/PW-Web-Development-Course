@@ -1,6 +1,6 @@
 :root {
     --text-color: #22313f;
-    --backround-color: #22313f;
+    --background-color: #22313f;
 }
 
 * {
@@ -58,7 +58,7 @@ p {
 }
 
 #card-2 {
-    background-color: var(--backround-color);
+    background-color: var(--background-color);
     color: white;
 }
 
