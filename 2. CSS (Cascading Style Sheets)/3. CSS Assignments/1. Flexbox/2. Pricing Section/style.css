@@ -21,8 +21,8 @@
 .card {
     margin: 10px;
     padding: 10px;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     gap: 10px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -64,4 +64,22 @@ p {
 
 #card-2 h1 {
     color: white;
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--background-color);
+    color: white;
+    font-weight: 500;
+}
+
+#button-2 {
+    background-color: white;
+    color: var(--background-color);
 }

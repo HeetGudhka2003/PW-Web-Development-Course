@@ -1,0 +1,24 @@
+#container {
+    display: grid;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "a1 a2 a3"
+        "b1 b2 b3"
+        "c1 c2 c3";
+}
+
+.item {
+    background-color: aqua;
+    margin: 2px;
+    padding: 3px;
+    border: 2px solid purple;
+}
+
+.a1 {
+    grid-area: a1;
+    background-color: red;
+}
