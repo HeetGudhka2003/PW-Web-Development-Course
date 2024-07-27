@@ -1,0 +1,82 @@
+#main-heading {
+    color: red;
+    text-align: center;
+}
+
+.types-paragraph {
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#tag-selector {
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#descendant-selector {
+    color: purple;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#class-selector {
+    color: orange;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#combination-selector {
+    color: brown;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#comma-combination-selector {
+    color: rgb(184, 184, 114);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#adjacent-sibling-selector {
+    color: pink;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#general-sibling-selector {
+    color: rgb(255, 0, 234);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#child-selector {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#first-child-selector {
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#only-child-selector {
+    color: lightgray;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#nth-child-selector {
+    color: darkgray;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#last-child-selector {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 500;
+}
