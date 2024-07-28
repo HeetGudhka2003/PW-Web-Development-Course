@@ -80,3 +80,27 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+#id-selector {
+    color: darkslateblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#first-of-type-selector {
+    color: darkslateblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#nth-of-type-selector {
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#attribute-selector {
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 500;
+}
