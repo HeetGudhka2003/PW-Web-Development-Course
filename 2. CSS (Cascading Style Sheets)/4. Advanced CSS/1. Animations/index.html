@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Animations</title>
+</head>
+
+<body>
+
+    <h1>CSS Animations</h1>
+
+    <p>CSS Animations are essential for controlling the movement and appearance of
+        elements on web pages. They consist of defining animation sequences using @keyframes
+        and applying these sequences to elements using various animation properties.</p>
+
+    <p>To understand CSS animations completely we need to master these things:</p>
+
+    <ol>
+        <li>Transforms</li>
+        <li>Transitions</li>
+        <li>Keyframes</li>
+
+    </ol>
+
+    <h2>Transform Properties</h2>
+
+    <ul>
+
+        <li><strong>Transform</strong>: It helps us to make changes to our HTML elements in a 2D plane by
+            allowing them to move from one position to other, resizing them, rotating them and
+            stretching them. There are four main aspects of transforms viz scale (resizing), rotate,
+            translate (moving) and skew (stretching).</li> <br>
+
+        <li><strong>Translate - Transform</strong>: It helps to move an HTML element either horizontally or
+            vertically or both. To apply this transformation we use the transform rule. This rule
+            takes multiple transformation actions space separated. To move in X axis direction or
+            we can say horizontally we can use translateX(). To move in Y axis direction or we can
+            say vertically we can use translateY().
+
+            <ol>
+
+                <h4>We can translate our elements by using the following ways:</h4>
+
+                <li><strong>translateX()</strong>: It moves the element along the X axis.</li> <br>
+
+                <li><strong>translateY()</strong>: It moves the element along the Y axis.</li> <br>
+
+                <li><strong>translateZ()</strong>: It moves the element along the Z axis.</li> <br>
+
+                <li><strong>translate()</strong>: This can be used for a 2D translation.</li> <br>
+
+                <li><strong>translate3d()</strong>: This can be used for 3D translation.</li> <br>
+
+            </ol>
+
+        </li>
+
+        <br>
+
+        <li><strong>Rotation - Transform</strong>: It helps to rotate an HTML element. To apply this
+            transformation we use the transform rule. This rule takes multiple transformation actions
+            space separated. To rotate the element along the X, Y or Z axis we can use rotate().
+
+            <ol>
+
+                <h4>We can rotate our elements by using the following ways:</h4>
+
+                <li><strong>rotateX()</strong>: It rotates the element along the X axis.</li> <br>
+
+                <li><strong>rotateY()</strong>: It rotates the element along the Y axis.</li> <br>
+
+                <li><strong>rotateZ()</strong>: It rotates the element along the Z axis (out of the screen).</li> <br>
+
+                <li><strong>rotate()</strong>: This can be used for a 2D rotation.</li> <br>
+
+                <li><strong>rotate3d()</strong>: This can be used for 3D rotation.</li> <br>
+
+            </ol>
+
+        </li>
+
+        <li><strong>Scale - Transform</strong>: It helps to resize an HTML element either small or large.
+
+            <ol>
+
+                <h4>We can resize our elements by using the following ways:</h4>
+
+                <li><strong>scaleX()</strong>: It resizes the element along the X axis.</li> <br>
+
+                <li><strong>scaleY()</strong>: It resizes the element along the Y axis.</li> <br>
+
+                <li><strong>scaleZ()</strong>: It resizes the element along the Z axis.</li> <br>
+
+                <li><strong>scale()</strong>: This can be used for a 2D scaling.</li> <br>
+
+                <li><strong>scale3d()</strong>: This can be used for 3D scaling.</li> <br>
+
+            </ol>
+
+        </li>
+
+        <br>
+
+        <li><strong>Skew - Transform</strong>: If you want to tilt or stretch an element, you can use skew().
+
+            <ol>
+
+                <h4>We can skew our elements by using the following ways:</h4>
+
+                <li><strong>skewX()</strong>: It tilts the element along the X axis.</li> <br>
+
+                <li><strong>skewY()</strong>: It tilts the element along the Y axis.</li> <br>
+
+                <li><strong>skew()</strong>: This can be used for a 2D skewing.</li> <br>
+
+                <li><strong>skew3d()</strong>: This can be used for 3D skewing.</li> <br>
+
+            </ol>
+
+        </li>
+
+    </ul>
+
+    <h2>Transition Properties</h2>
+
+    <p>CSS transitions enable web developers to control the smooth transition between two states of an element. For
+        instance, when a user hovers over a button, the background color of the element can change seamlessly using CSS
+        selectors and pseudo-classes.</p>
+
+    <ul>
+
+        <li><strong>transition-duration:</strong>: Defines the length of time a transition animation should take.</li>
+        <br>
+
+        <li><strong>transition-delay:</strong>: Defines the amount of time to wait before the transition animation
+            starts.</li> <br>
+
+        <li><strong>transition-timing-function:</strong>: Defines the speed curve of the transition animation.
+
+            <ol>
+
+                <h4>We can define the speed curve of the transition animation by using the following ways:</h4>
+
+                <li><strong>ease</strong>: This is a slow start and fast end.</li> <br>
+
+                <li><strong>ease-in</strong>: This is a slow start and fast end.</li> <br>
+
+                <li><strong>ease-out</strong>: This is a fast start and slow end.</li> <br>
+
+                <li><strong>ease-in-out</strong>: This is a slow start, fast middle and slow end.</li> <br>
+
+                <li><strong>linear</strong>: This is a slow start and fast end.</li> <br>
+
+                <li><strong>steps-end</strong>: This is with a constant start and fast end.</li> <br>
+
+                <li><strong>steps-start</strong>: This is with a fast start and constant end.</li> <br>
+
+                <li><strong>cubic-bezier()</strong>: This can be used to define the custom curve of the transition
+                    animation.</li> <br>
+
+            </ol>
+
+        </li> <br>
+
+    </ul>
+
+    <div id="parent">
+
+        <div id="red">
+
+            <div id="line"></div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
