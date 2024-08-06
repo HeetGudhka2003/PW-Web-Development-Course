@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(240, 232, 232);
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+#loader {
+    animation: rotate 2s linear infinite;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-top-color: #3498db;
+}
+
+@keyframes rotate {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

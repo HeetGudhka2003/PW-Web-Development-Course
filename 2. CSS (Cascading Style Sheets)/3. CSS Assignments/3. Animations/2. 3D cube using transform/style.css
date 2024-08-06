@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    perspective: 1000px;
+}
+
+.cube {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: rotateX(-30deg) rotateY(-45deg);
+    animation: rotate 10s infinite linear;
+}
+
+.face {
+    position: absolute;
+    width: 198px;
+    height: 198px;
+    background-color: blue;
+    border: 3px solid #000;
+    opacity: 0.9;
+}
+
+.front {
+    transform: translateZ(100px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    transform: rotateY(180deg) translateZ(100px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    transform: rotateY(-90deg) translateZ(100px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    transform: rotateY(90deg) translateZ(100px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    transform: rotateX(90deg) translateZ(100px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    transform: rotateX(-90deg) translateZ(100px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotate {
+
+    from {
+        transform: rotateX(-30deg) rotateY(-45deg);
+    }
+
+    to {
+        transform: rotateX(-30deg) rotateY(315deg);
+    }
+}

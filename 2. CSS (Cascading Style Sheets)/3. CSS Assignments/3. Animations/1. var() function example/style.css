@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+}
+
+#main-heading {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#main-paragraph {
+    color: blue;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+:root {
+    --primaryColor: #00b7ff;
+    --secondaryColor: #6c757d;
+}
+
+#primaryBtn,
+#secondaryBtn {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#primaryBtn {
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+#secondaryBtn {
+    background-color: var(--secondaryColor);
+    color: white;
+}
