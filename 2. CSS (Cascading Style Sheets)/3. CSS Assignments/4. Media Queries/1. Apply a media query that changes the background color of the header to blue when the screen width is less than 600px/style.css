@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#main-heading {
+    text-align: center;
+    background-color: #f2f2f2;
+    height: 80px;
+    padding: 15px 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #main-heading {
+        background-color: blue;
+    }
+}
