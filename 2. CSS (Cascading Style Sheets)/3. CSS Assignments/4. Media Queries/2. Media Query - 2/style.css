@@ -20,6 +20,10 @@
         width: 300px;
         height: 440px;
     }
+
+    #image-3 {
+        margin-right: 350px;
+    }
 }
 
 /* For screens smaller than 500px: one image in a row */
@@ -34,5 +38,9 @@
     .image-container img {
         width: 300px;
         height: 450px;
+    }
+
+    #image-3 {
+        margin-right: 0;
     }
 }
