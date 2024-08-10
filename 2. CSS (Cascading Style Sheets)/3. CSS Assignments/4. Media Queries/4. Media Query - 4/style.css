@@ -82,7 +82,7 @@
 
 /* Media Query for Mobile Phones (up to 480px wide) */
 
-@media (max-width: 480px) {
+@media (max-width: 490px) {
     
     .grid-container {
         grid-template-columns: 1fr;
@@ -92,6 +92,6 @@
     
     .grid-item {
         width: 100%;
-        height: 210px;
+        height: 140px;
     }
 }
