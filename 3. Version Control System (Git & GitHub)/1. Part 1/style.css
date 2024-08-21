@@ -10,7 +10,7 @@
     color: red;
 }
 
-#para {
+#vcs-para {
     font-size: 18px;
     text-align: justify;
     margin: 10px 15px;
@@ -33,4 +33,21 @@ li {
 strong {
     color: green;
     font-size: 18px;
+}
+
+#git-heading {
+    text-align: center;
+    color: red;
+}
+
+#git-para {
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 15px;
+}
+
+img {
+    display: block;
+    margin: 15px auto;
+    width: 50%;
 }
