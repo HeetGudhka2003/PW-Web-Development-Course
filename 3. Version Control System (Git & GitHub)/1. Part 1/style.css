@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+#main-heading {
+    text-align: center;
+    color: red;
+}
+
+#para {
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 15px;
+}
+
+ul {
+    margin: 10px 15px;
+}
+
+li {
+    margin: 10px 15px;
+    font-size: 18px;
+}
+
+#sub-heading {
+    text-align: center;
+    color: blue;
+}
+
+strong {
+    color: green;
+    font-size: 18px;
+}
