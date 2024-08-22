@@ -1,8 +1,12 @@
-// JavaScript is a programming language that is used to build web applications. It is a client side scripting language, which means it is executed by the web browser rather than on a server.
+/* 
 
-// Keywords are the reserved words that are part of the syntax and they cannot be used in the form of variables, functions, classes or objects etc. They convey a special meaning to the compiler. For example: let, var, const, function, class etc.
+JavaScript is a programming language that is used to build web applications. It is a client side scripting language, which means it is executed by the web browser rather than on a server.
 
-// Variables are used to store data values. They can be changed or updated. The data value can be a number, a string, a boolean, an array or an object. It is advised to name variables in camelCase. You can create variables by using let, var and const.
+ Keywords are the reserved words that are part of the syntax and they cannot be used in the form of variables, functions, classes or objects etc. They convey a special meaning to the compiler. For example: let, var, const, function, class etc.
+
+ Variables are used to store data values. They can be changed or updated. The data value can be a number, a string, a boolean, an array or an object. It is advised to name variables in camelCase. You can create variables by using let, var and const.
+
+ */
 
 // Rules for naming variables:
 
