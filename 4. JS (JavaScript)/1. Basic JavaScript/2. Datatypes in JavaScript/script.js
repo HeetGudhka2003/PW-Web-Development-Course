@@ -14,8 +14,6 @@ console.log("The value of num1 is: ", num1);
 
 console.log("The value of num2 is: ", num2);
 
-// String
-
 // String is a special data type that can be used to represent text. It can be declared using single, double quotes or backticks.
 
 let str = "Hello World";
@@ -59,7 +57,6 @@ console.log("Non-primitive data types: ");
 // Object is a special data type that can be used to represent collections of properties.
 
 let obj1 = {
-
     name: "John",
     age: 30
 };
