@@ -57,7 +57,9 @@ console.log("Non-primitive data types: ");
 // Object is a special data type that can be used to represent collections of properties.
 
 let obj1 = {
+
     name: "John",
+    
     age: 30
 };
 
