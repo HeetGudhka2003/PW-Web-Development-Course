@@ -1,0 +1,3 @@
+3. Explain the concept of Event Bubbling in the DOM.
+
+Ans: Event bubbling in the DOM is a process where an event triggered on a child element first executes its event handlers, then "bubbles up" to execute handlers on its parent elements, up to the root. For example, if a button inside a div is clicked, the button’s click handler runs first, followed by the div’s handler, and so on up the hierarchy. This allows higher-level elements to handle events occurring within their child elements. Event bubbling is the default behavior, but it can be stopped using event.stopPropagation() to prevent the event from reaching parent elements.

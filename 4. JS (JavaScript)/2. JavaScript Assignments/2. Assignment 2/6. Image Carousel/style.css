@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    user-select: none;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
