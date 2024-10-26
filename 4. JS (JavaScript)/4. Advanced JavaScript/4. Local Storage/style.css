@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+}
+
+#add-data {
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+#get-data {
+    background-color: green;
+    border: 1px solid green;
+}
+
+#delete-data {
+    background-color: red;
+    border: 1px solid red;
+}
