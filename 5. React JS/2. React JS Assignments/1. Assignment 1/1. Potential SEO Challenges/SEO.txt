@@ -1,0 +1,3 @@
+1. Explain the potential SEO challenges and solutions associated with Single Page Applications (SPAs).
+
+Ans: Single Page Applications (SPAs) can face SEO challenges because content loads dynamically, often making it invisible to search engine crawlers, which rely on static content. This can result in lower visibility and poor indexing of key pages. Also, SPAs commonly use JavaScript frameworks that may not be immediately crawled by search engines, which can delay or hinder indexing. Solutions include implementing server-side rendering (SSR) or pre-rendering to serve crawlers static HTML content. Additionally, using proper meta tags, structured data, and ensuring a clear URL structure help crawlers understand the page content and improve SEO performance for SPAs.

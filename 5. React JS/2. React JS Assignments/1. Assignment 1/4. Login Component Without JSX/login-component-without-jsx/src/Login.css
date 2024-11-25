@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+form input {
+    padding: 0.5rem;
+    width: 60%;
+    font-size: 14px;
+}
+
+form button {
+    padding: 0.5rem;
+    cursor: pointer;
+}
