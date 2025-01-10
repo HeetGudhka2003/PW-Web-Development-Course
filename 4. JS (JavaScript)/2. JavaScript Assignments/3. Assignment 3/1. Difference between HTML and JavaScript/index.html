@@ -1,0 +1,46 @@
+<!-- 
+
+1. Explain the key difference between JavaScript and HTML. Provide examples of situations where you
+would use each.
+
+Ans: JavaScript is an object oriented programming language that is capable of creating dynamic content and interactivity for Web pages as it can manipulate HTML elements or manage the user’s input and using Other Tools. HTML (Hyper Text Markup Language) is a markup language that is utilized in the construction of the web as content, which is often in the form of text, images or links. To put it differently, if HTML is concerned with defining the content and form of a web page, JavaScript is concerned with defining the functionality of a web page. In simple terms, HTML focuses on structure while JavaScript focuses on the behavior.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Register for Our Website</h1>
+
+    <form id="registrationForm">
+
+        <label for="username">Username:</label>
+
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+        
+        <br> <br>
+
+        <label for="password">Password:</label>
+
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+        
+        <br> <br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <div id="output"></div> <!-- This will display the input values -->
+    
+</body>
+
+</html>
