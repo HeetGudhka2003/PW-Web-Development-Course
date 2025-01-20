@@ -1,0 +1,95 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Headline */
+
+h1 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Form Container */
+
+form {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Label */
+
+label {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Input Field */
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border: 1px solid #4facfe;
+}
+
+/* Button */
+
+button {
+    background-color: #4facfe;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #00c6ff;
+    transform: translateY(-2px);
+}
+
+/* Result Div */
+
+#grade {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}

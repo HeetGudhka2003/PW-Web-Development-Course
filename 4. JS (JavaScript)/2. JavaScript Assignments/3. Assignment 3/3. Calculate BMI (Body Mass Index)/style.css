@@ -1,0 +1,106 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #3b82f6, #93c5fd);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Header Styling */
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Form Styling */
+
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Label Styling */
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+/* Input Styling */
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons Styling */
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#calculateBMI {
+    background-color: #2563eb;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+#calculateBMI:hover {
+    background-color: #1d4ed8;
+}
+
+#reset {
+    background-color: #ef4444;
+    color: #fff;
+}
+
+#reset:hover {
+    background-color: #dc2626;
+}
+
+/* Result Box Styling */
+
+#result {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #10b981;
+}
